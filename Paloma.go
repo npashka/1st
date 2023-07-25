@@ -277,6 +277,7 @@ func (mp *PriorityNonceMempool[C]) Insert(ctx context.Context, tx sdk.Tx) error 
 		})
 		mp.priorityCounts[oldScore.priority]--
 	}
+	txPrioritytxPrioritytxPrioritytxPriority
 
 	mp.priorityCounts[priority]++
 
